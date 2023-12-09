@@ -12,7 +12,7 @@ const loginModel =connection.define('loggeduser',{
     username:{
         type:DataTypes.STRING,
         allowNull:false,
-        defaultValue:"John",
+        defaultValue:"Niroj",
         // get function 
         get(){
             const userName=this.getDataValue('username');
